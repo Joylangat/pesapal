@@ -12,7 +12,7 @@ Before running the project, ensure that you have the following prerequisites ins
 ## Installation
 
 1. Clone the repository to your local machine by executing the following command in your terminal:
-git clone https://github.com/karanidenis/php_project.git
+git clone https://github.com/Joylangat/pesapal
 
 2. Navigate to the project directory:
 cd php_project
@@ -80,11 +80,11 @@ To authenticate with Pesapal APIs and obtain a Pesapal iframe URL, follow these 
 <?php
 $username = 'admin'; // Replace with your actual username
 $token = generateToken($username);
-?> ```
+?> 
 
 2.Implement the getIframeUrl() function to obtain the Pesapal iframe URL. This function handles the authentication and registration of IPN. Example:
 
-```<?php
+<?php
 $url = getIframeUrl();
 ?>
 ```
